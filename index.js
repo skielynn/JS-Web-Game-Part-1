@@ -30,3 +30,5 @@ function newItem(url, left, bottom){
 }
 
 newItem('assets/sword.png', 500, 405)
+newItem('assets/sheild.png', 165, 185)
+newItem('assets/staff.png', 600, 100)
