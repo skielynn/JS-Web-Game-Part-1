@@ -20,3 +20,13 @@ newImage('assets/tree.png', 200, 300)
 newImage('assets/pillar.png', 350, 100)
 newImage('assets/crate.png', 150, 200)
 newImage('assets/well.png', 500, 425)
+
+function newItem(url, left, bottom){
+    let object = newImage(url, left, bottom)
+
+    object.addEventListener('dblclick', () => {
+        object.remove()
+    })
+}
+
+newItem('assets/sword.png', 500, 405)
